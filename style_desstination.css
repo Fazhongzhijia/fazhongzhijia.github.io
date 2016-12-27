@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    max-width: device-width;
+    max-height: device-height;
+    background-color: transparent; 
+}
+            img {
+                max-width: 100%;
+                margin: 0;
+            }
+            section {
+                max-width: device-width;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                border: 0px solid black;
+            }
+            article {
+                max-width: device-width;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            footer {
+                max-width: 100%;
+                margin: 0;
+                padding: 2%;
+            }
+            h4#price_detail {
+                color: white;
+                background-color: transparent;
+                font-size: 150%;
+                margin: 1%;
+            }
+            h4.dayN {
+                background-color: rgb(180,9,42);
+                color: white;
+                padding: 2%;
+            }
+            div#info {
+                margin: 3%;
+                padding:1% 1%;
+                background-color: rgb(2,55,130);
+                border-radius: 10px 10px 10px 10px;
+                -moz-border-radius: 10px 10px 10px 10px;
+                -webkit-border-radius: 10px 10px 10px 10px;
+                border: 0px solid #000000;
+                color: white;
+            }
+            ul {
+                margin: 3% 3% 3% 0%;
+            }
+            li {
+                margin: 0% 0% 3% 0%;
+            }
+            div.price_days {
+                margin: 0;
+                padding: 1%;
+            }
+            span.days {
+                float: left;
+                color: rgb(2,55,130)
+            }
+            span.price {
+                float: right;
+                color: rgb(2,55,130)
+            }

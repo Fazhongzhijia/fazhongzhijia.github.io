@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- pour Response Web Design -->
+        <title>更多主题</title>
+        <style>
+            body {
+                margin: 0px;
+                max-width: device-width;
+                max-height: device-height;
+                height: device-height;
+            }
+            img {
+                max-width: 100%;
+            }
+            div.item-menu-wrap {
+                display: none;
+                
+                max-width: 100%;
+                width: 100%;
+                margin: 0% 0% 0% 0%;
+                text-align: center;
+                border:0px solid black;
+                
+                -webkit-box-shadow: 0px 10px 5px -5px rgba(97,92,97,1);
+                -moz-box-shadow: 0px 10px 5px -5px rgba(97,92,97,1);
+                box-shadow: 0px 10px 5px -5px rgba(97,92,97,1);
+                
+               background-color: #FFF8DC;
+               opacity: 0.7;
+            }
+            
+            button.choix {
+                max-width: device-width;
+                width: 100%;
+                margin: 0%;
+                padding-top: 5%;
+                padding-bottom: 5%;
+                padding-left:	10%;
+                padding-right:	10%;
+                font-size: 100%;
+                color: black;
+                border:0px solid black;
+                background-color: transparent;
+                font-size: 100%;
+                text-shadow: 0px 0px 0px black;
+            }
+            
+            div.divide {
+                margin: 0 auto;
+                width: 85%;
+                padding: 0%;
+                border: 0.5px solid #e6e3dd;
+            }
+            button {
+                max-width: device-width;
+                width: 100%;
+                margin: 8% 0% 0% 0%;
+                padding-top: 23%;
+                padding-bottom: 23%;
+                padding-left:	0%;
+                padding-right:	0%;
+                font-size: 200%;
+                text-align:center;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                color: white;
+                text-shadow: 3px 3px 3px black;
+                border: 0px solid;
+            } 
+            div.theme {
+                max-width: device-width;
+                width: device-width;
+                border-bottom: 1px solid grey;
+                padding: 0% 0% 8% 0%;
+            }
+            img.logo_carre {
+                width: 15%;
+                height: 12%;
+                float: left;
+                position: absolute;
+                background-color:white;
+                padding: 1%;
+                margin: 3%;
+            }
+            button#sujet1 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/秋冬新品_weixin_800500.jpg");
+            }
+            button#sujet2{
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/初始欧洲_weixin_800500.jpg");
+            }
+            button#sujet3 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/不一样的法国深度游_weixin_800500.jpg");
+            }
+            button#sujet4 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/家庭欧洲游_weixin_800500.jpg");
+            }
+            button#sujet5 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/美酒美食之路_weixin_800500.jpg");
+            }
+            button#sujet6 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/法国欧洲自驾游_weixin_800500.jpg");
+            }
+            button#sujet7 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/双人浪漫蜜月游_weixin_800500.jpg");
+            }
+            button#sujet8 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/体育运动爱好者_weixin_800500.jpg");
+            }
+            button#sujet9 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/艺术追寻_weixin_800500.jpg");
+            }
+            button#sujet10 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/法国礼仪研修_weixin_800500.jpg");
+            }
+            button#sujet11 {
+                background-image: url("http://www.fazhongzhijia.com/wp-content/uploads/2015/08/时尚之旅_weixin_800500.jpg");
+            }     
+
+        </style>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script> 
+                $(document).ready(function(){
+                    $("#sujet1").click(function(){
+                        $("#item-menu-wrap-1").slideToggle("fast");
+                    });
+                    
+                    $("#sujet2").click(function(){
+                        $("#item-menu-wrap-2").slideToggle("fast");
+                    });
+                    
+                    $("#sujet3").click(function(){
+                        $("#item-menu-wrap-3").slideToggle("fast");
+                    });
+                    
+                    $("#sujet4").click(function(){
+                        $("#item-menu-wrap-4").slideToggle("fast");
+                    });
+                    
+                    $("#sujet5").click(function(){
+                        $("#item-menu-wrap-5").slideToggle("fast");
+                    });
+                    
+                    $("#sujet6").click(function(){
+                        $("#item-menu-wrap-6").slideToggle("fast");
+                    });
+                    
+                    $("#sujet7").click(function(){
+                        $("#item-menu-wrap-7").slideToggle("fast");
+                    });
+                    
+                    $("#sujet8").click(function(){
+                        $("#item-menu-wrap-8").slideToggle("fast");
+                    });
+                    
+                    $("#sujet9").click(function(){
+                        $("#item-menu-wrap-9").slideToggle("fast");
+                    });
+                    
+                    $("#sujet10").click(function(){
+                        $("#item-menu-wrap-10").slideToggle("fast");
+                    });
+                    
+                    $("#sujet11").click(function(){
+                        $("#item-menu-wrap-11").slideToggle("fast");
+                    });
+                });
+        </script>
+        
+    </header>
+    
+    <body>
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet1">
+                <strong>秋冬新品</strong>
+            </button>
+                
+            <div class="item-menu-wrap" id="item-menu-wrap-1">
+              	<a href="http://2.teststage1.sinaapp.com/sujet/Espagne_Maroc.php" >
+                	<button class="choix"><strong>西班牙摩洛哥热情之旅</strong></button>
+                </a>
+                <div class="divide"></div>
+                <button class="choix"><strong>法国深度自驾黑松露之旅</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>巴黎、普罗旺斯蜜月之旅</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>文化与美酒的饕餮之旅</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>法国南部浪漫亲子游</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>游走在普罗旺斯的山海之间</strong></button>
+            </div>
+        </div>
+
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet2">
+                <strong>初识欧洲</strong>
+            </button>
+                    
+            <div class="item-menu-wrap" id="item-menu-wrap-2">
+               <button class="choix"><strong>法国全接触</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>普罗旺斯自驾游-法国全景游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法德瑞三国休闲自驾10天之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法意瑞私家团</strong></button>
+            </div>
+        </div>
+
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet3">
+                 <strong>不一样的法国深度游</strong>
+            </button>
+                    
+            <div class="item-menu-wrap" id="item-menu-wrap-3">
+               <button class="choix"><strong>法国深度游之米约大桥</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国深度发现凯尔特民俗之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>巴黎诺曼底追寻艺术之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国城堡游之皇家尊贵传统</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>波尔多红酒经典游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国朗格多克鲁西永深度之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>波尔多红酒经典定制旅游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>游走在普罗旺斯的山海之间</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>普罗旺斯自驾游-法国全景游</strong></button>
+            </div>
+         </div>
+
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet4">
+               <strong>家庭欧洲游</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-4">
+               <button class="choix"><strong>法国圣诞节阿尔卑斯之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>瑞士美食美景悠闲之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国瑞士阿尔卑斯新鲜空气之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国南部浪漫亲子游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国美食艺术人文亲子游</strong></button>
+            </div>
+        </div>
+
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet5">
+               <strong>美食美酒之路</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-5">
+               <button class="choix"><strong>文化与美酒的饕餮之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>比利时美食和艺术的体验之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>波尔多红酒经典游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>探访干邑的故乡</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>波尔多红酒经典定制旅游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国美食艺术人文夏令营</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>普罗旺斯鉴赏家之旅&nbsp;II</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>瑞士美食美景悠闲之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国美食艺术人文亲子游</strong></button>
+            </div>
+        </div>
+
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet6">
+               <strong>法国欧洲自驾游</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-6">
+               <button class="choix"><strong>法国瑞士休闲自驾之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>当筷子遇上叉子-法国自驾之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国自由行线路之深度自驾游十天</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国美食艺术人文亲子游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>普罗旺斯自驾游-法国全景游</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国深度自驾黑松露之旅</strong></button>
+            </div>
+        </div>
+        
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet7">
+               <strong>双人浪漫蜜月游</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-7">
+               <button class="choix"><strong>意大利法国自由行-欧洲浪漫之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>意大利蜜月游三明珠之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>摩洛哥酒店之深度体验</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>巴黎、普罗旺斯蜜月游</strong></button>
+            </div>
+        </div>
+        
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet8">
+               <strong>体育运动爱好者</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-8">
+               <button class="choix"><strong>法国圣诞节阿尔卑斯之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国瑞士休闲自驾之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>游走在普罗旺斯的山海之间</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国瑞士阿尔卑斯新鲜空气之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>深度卢瓦尔河谷骑行</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>法国皇家马术之旅</strong></button>
+            </div>
+        </div>
+        
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet9">
+               <strong>艺术追寻</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-9">
+               <button class="choix"><strong>意大利文艺复兴之旅</strong></button>
+               <div class="divide"></div>
+               <button class="choix"><strong>比利时美食和艺术的体验之旅</strong></button>
+            </div>
+         </div>
+
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet10">
+                <strong>法国礼仪研修</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-10">
+                <button class="choix"><strong>普罗旺斯鉴赏家之旅</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>普罗旺斯鉴赏家之旅&nbsp;II</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>法国礼仪研究之旅-春季篇</strong></button>
+            </div>
+        </div>
+        
+        
+        <div class="theme">
+            <img class="logo_carre" src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-VERT-18122014.png">
+            <button id="sujet11">
+                <strong>时尚之旅</strong>
+            </button>
+            
+            <div class="item-menu-wrap" id="item-menu-wrap-11">
+                <button class="choix"><strong>五月法国瑞士精品拍卖会之旅</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>意大利法国自由行-欧洲浪漫之旅</strong></button>
+                <div class="divide"></div>
+                <button class="choix"><strong>生活在巴黎</strong></button>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

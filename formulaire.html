@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- pour Response Web Design -->
+        <meta name="format-detection" content="telephone=no" />
+        <title>法中之家定制旅游</title>
+        <style>
+            body {
+                margin: 0px;
+                max-width: device-width;
+                max-height: device-height;
+                background-color: transparent; 
+            }
+            section {
+                max-width: device-width;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                border: 0px solid black;
+            }
+            img {
+                max-width: 100%;
+                margin: 0;
+            }
+            span#0-255 {
+                font-size: 120%;
+                color: #B8B8B8;
+            }
+            h2 {
+                color: rgb(180,9,42);
+            }
+            article {
+                padding: 2%;
+                margin: 5%;
+            }
+            form {
+                max-width: 100%;
+                max-height: 100%;
+                width: 100%;
+                height: 100%;
+                border: 0px solid #000000;
+            }
+            div#checkbox {
+                border: 1px solid black;
+            }
+            div{
+                margin: 5% 3% 5% 3%; 
+            }
+            label {
+                font-size: 120%;
+                text-align: right;
+                margin: 0px; 
+                border: 0px solid black;
+            }
+            input.normal,input#submit, textarea {
+                font: 1em sans-serif;
+                width: 100%;
+                height:  30px;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                border: 1px solid #999;
+                margin: 0px;
+            }
+            input#submit {
+                -webkit-appearance: none;
+                background-color: rgb(180,9,42);
+                color: white;
+                font-size: 120%;
+                border: 0px solid;
+            }
+            textarea {
+                height: 100px;
+            }
+            span#etoile {
+                color: DarkRed;
+            }
+        </style>
+    </header>
+    <body>
+        <section>
+            <img src="http://www.fazhongzhijia.com/wp-content/uploads/2015/07/LOGO-FZZJ-HOR-18122014.png">
+        </section>
+
+        <article>
+            <fieldset>
+                <legend><h2><strong>定制您的行程</strong></h2></legend>
+            
+                <p>二十年丰富的旅行制定经验，为您打造最适合您的欧洲之旅，您可以直接联系我们中国办事处代表。我们可以给您提供免费咨询和提供一个价格预算。</p>
+       
+            
+                 <form>   
+                     <div>
+                         <label for="name"><span id="etoile">*</span>您的名字：</label><br/>
+                        <input class="normal" type="text" id="first_name" required/>
+                     </div>
+                    
+                    <div>
+                        <label for="name"><span id="etoile">*</span>您的姓氏：</label><br/>
+                        <input class="normal" type="text" id="last_name" required/>
+                     </div>
+                    
+                     <div>
+                         <label for="mail"><span id="etoile">*</span>邮箱地址：</label><br/>
+                         <input class="normal" type="email" id="mail" required/>
+                     </div>
+                    
+                     <div>
+                         <label for="phone"><span id="etoile">*</span>您的电话：</label><br/>
+                         <input class="normal" type="tel" id="tele" required/>
+                     </div>
+                    
+                    <div>
+                        <label for="addr">居住地：</label><br/>
+                        <input class="normal" type="text" id="address" />
+                     </div>
+                    
+                    <div>
+                        <label for="dest">您所倾向的旅游目的地是？</label><br/>
+                        <input class="normal" type="text" id="destination" />
+                     </div>
+                    
+                    <div>
+                        <label for="leave"><span id="etoile">*</span>预计出发时间：</label><br/>
+                        <input class="normal" type="date" id="dateForLeave" required/>
+                    </div>
+                    
+                    <div>
+                        <label for="back"><span id="etoile">*</span>预计回程时间：</label><br/>
+                        <input class="normal" type="date" id="dateForBack" required/>
+                    </div>
+                    
+                    <div>
+                        <label for="budgt"><span id="etoile">*</span>您的单人预算：</label><br/>
+                        <input class="normal" type="number" id="budgt" required/>
+                    </div>
+                    
+                    <div>
+                        <label for="people"><span id="etoile">*</span>人数：</label><br/>
+                        <input class="normal" type="number" id="people" required/>
+                    </div>
+                    
+                    <div>
+                        <label for="children"><span id="etoile">*</span>儿童数量：</label><br/>
+                        <input class="normal" type="number" id="children" required/>
+                    </div>
+                    
+                    <div>
+                        <label for="msg">留言：</label>&nbsp;<span id="0-255">(0-255个字以内)</span>
+                        <textarea id="msg" max="255"></textarea>
+                    </div>
+                     
+                    <div>
+                         <fieldset>
+                            <legend>您喜欢的旅游项目是？（多选题）</legend>
+                                    <input type="checkbox" name="progVoyage" value="人文景观"/>人文景观<br />
+                                    <input type="checkbox" name="progVoyage" value="自然风光"/>自然风光<br />
+                                    <input type="checkbox" name="progVoyage" value="历史遗迹"/>历史遗迹<br />
+                                    <input type="checkbox" name="progVoyage" value="美酒佳肴"/>美酒佳肴<br />
+                                    <input type="checkbox" name="progVoyage" value="观光购物"/>观光购物<br />
+                                    <input type="checkbox" name="progVoyage" value="休闲娱乐"/>休闲娱乐<br />
+                                    <input type="checkbox" name="progVoyage" value="户外探险"/>户外探险<br />
+                                    <input type="checkbox" name="progVoyage" value="民俗风情"/>民俗风情<br />
+                                    <input type="checkbox" name="progVoyage" value="其它"/>其它<br />
+                        </fieldset>
+                    </div>
+                    
+                    <div>
+                        <label for="comment">您对我们的产品有什么建议以及您如何了解到我们公司的：</label><br/>
+                        <textarea id="comment"></textarea>
+                    </div>
+                     
+                     <div>
+                         <input type="submit" value="提交" id="submit"/>
+                     </div>
+                </form>
+            </fieldset>
+         </article>
+        
+        <footer>
+        </footer> 
+    </body>
+</html>
